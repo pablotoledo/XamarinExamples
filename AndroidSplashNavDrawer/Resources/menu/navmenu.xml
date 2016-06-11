@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_home"
+      android:icon="@drawable/ic_home_black_24dp"
+      android:title="Home" />
+    <item
+      android:id="@+id/nav_write_post"
+      android:icon="@drawable/ic_question_answer_black_24dp"
+      android:title="Write Post" />
+    <item
+      android:id="@+id/nav_post"
+      android:icon="@drawable/ic_supervisor_account_black_24dp"
+      android:title="Members" />
+    <item
+      android:id="@+id/nav_devices"
+      android:icon="@drawable/ic_devices_black_24dp"
+      android:title="Devices" />
+  </group> 
+  <item android:title="More">
+    <menu>
+      <item
+        android:id="@+id/nav_about"
+        android:title="About" />
+     </menu>
+  </item>
+</menu>
